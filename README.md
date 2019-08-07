@@ -5,6 +5,8 @@ ThinkPHP版 中文转拼音扩展名
 ```sh
 composer require "xiaodi/think-pinyin"
 ```
+***使用包***
+* [overtrue/pinyin](https://github.com/overtrue/pinyin) `安正超`
 
 ## 快捷使用
 
