@@ -40,3 +40,8 @@ Pinyin::abbr();
 Pinyin::permalink();
 Pinyin::sentence();
 ```
+
+控制器里 也可以这样写
+```php
+$this->app->pinyin->convert('带着希望去旅行，比到达终点更美好');
+```
