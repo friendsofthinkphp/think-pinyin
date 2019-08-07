@@ -1,11 +1,11 @@
 # ThinkPHP-Pinyin
-ThinkPHP版 中文转拼音扩展名
+ThinkPHP版 中文转拼音扩展名 只支持ThinkPHP6
 
 ## 安装
 ```sh
 composer require "xiaodi/think-pinyin"
 ```
-***使用包***
+**使用包**
 * [overtrue/pinyin](https://github.com/overtrue/pinyin) `安正超`
 
 ## 快捷使用
