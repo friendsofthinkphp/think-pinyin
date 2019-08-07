@@ -1,5 +1,5 @@
 # ThinkPHP-Pinyin
-Chinese to Pinyin translator for ThinkPHP
+ThinkPHP版 中文转拼音扩展名
 
 ## 安装
 ```sh
