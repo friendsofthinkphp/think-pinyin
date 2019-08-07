@@ -1,5 +1,5 @@
 # ThinkPHP-Pinyin
-ThinkPHP版 中文转拼音扩展名 只支持ThinkPHP6
+ThinkPHP版 中文转拼音扩展包 只支持ThinkPHP6
 
 ## 安装
 ```sh
