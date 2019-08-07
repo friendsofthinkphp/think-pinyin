@@ -1,6 +1,6 @@
 {
     "name": "xiaodi/think-pinyin",
-    "description": "Chinese to Pinyin translator for ThinkPHP",
+    "description": "ThinkPHP 中文转拼音扩展名",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,8 @@
         "chinese"
     ],
     "require": {
-        "overtrue/pinyin": "~4.0"
+        "overtrue/pinyin": "~4.0",
+        "topthink/framework": "6.0.*-dev"
     },
     "autoload": {
         "psr-4": {
