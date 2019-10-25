@@ -1,6 +1,6 @@
 {
     "name": "xiaodi/think-pinyin",
-    "description": "ThinkPHP 中文转拼音扩展名",
+    "description": "ThinkPHP 中文转拼音扩展包",
     "license": "MIT",
     "authors": [
         {
