@@ -41,9 +41,10 @@ Pinyin::permalink();
 Pinyin::sentence();
 ```
 
-控制器里 也可以这样写
+## 控制器调用
+
+### 5.1
 ```php
-// 5.1
 use think\Controller;
 
 class Index extends Controller
@@ -53,8 +54,8 @@ class Index extends Controller
 
 ```
 
+### 6.0
 ```php
-// 6.0
 use app\BaseController
 
 class Index extends BaseController
