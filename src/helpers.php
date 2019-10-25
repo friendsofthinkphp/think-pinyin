@@ -1,6 +1,11 @@
 <?php
 use Overtrue\Pinyin\Pinyin;
 
+// 兼容 5.1 版本
+if (strpos(\think\App::VERSION, '5.1') !== false) {
+    bind('pinyin', Pinyin::class);
+}
+
 if (!function_exists('pinyin')) {
     /**
      * Get the Pinyin of given string.
