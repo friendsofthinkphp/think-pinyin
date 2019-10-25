@@ -1,5 +1,5 @@
 # ThinkPHP-Pinyin
-ThinkPHP版 中文转拼音扩展包 只支持ThinkPHP6
+ThinkPHP版 中文转拼音扩展包 支持ThinkPHP `5.1` `6.0`版本
 
 ## 安装
 ```sh
@@ -43,5 +43,23 @@ Pinyin::sentence();
 
 控制器里 也可以这样写
 ```php
-$this->app->pinyin->convert('带着希望去旅行，比到达终点更美好');
+// 5.1
+use think\Controller;
+
+class Index extends Controller
+{
+  $this->app->pinyin->convert('带着希望去旅行，比到达终点更美好');
+}
+
+```
+
+```php
+// 6.0
+use app\BaseController
+
+class Index extends BaseController
+{
+  $this->app->pinyin->convert('带着希望去旅行，比到达终点更美好');
+}
+
 ```
