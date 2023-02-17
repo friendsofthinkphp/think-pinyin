@@ -15,7 +15,7 @@
     ],
     "require": {
         "overtrue/pinyin": "~4.0",
-        "topthink/framework": "6.0.*|5.1.*"
+        "topthink/framework": "6.0.*|6.1.*|5.1.*"
     },
     "autoload": {
         "psr-4": {
